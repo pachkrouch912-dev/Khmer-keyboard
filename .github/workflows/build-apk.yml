@@ -1,7 +1,11 @@
 name: Build Khmer Keyboard APK
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ "main" ] # ឬ "master" អាស្រ័យលើ Branch របស់អ្នក
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch: # នៅតែអាចទុកឱ្យយើងចុច Run ដោយដៃបានដដែល
 
 permissions:
   contents: read

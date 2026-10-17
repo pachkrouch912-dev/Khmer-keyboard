@@ -12,8 +12,8 @@
             android:exported="true">
 
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
 
         </activity>
@@ -25,12 +25,12 @@
             android:exported="true">
 
             <intent-filter>
-                <action android:name="android.view.InputMethod" />
+                <action android:name="android.view.InputMethod"/>
             </intent-filter>
 
             <meta-data
                 android:name="android.view.method"
-                android:resource="@xml/method" />
+                android:resource="@xml/method"/>
 
         </service>
 
